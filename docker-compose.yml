@@ -1,0 +1,9 @@
+version: '3.3'
+
+services:
+
+  ca:
+    image: cors-anywhere:latest
+    container_name: ca
+    ports:
+      - 1080:80
